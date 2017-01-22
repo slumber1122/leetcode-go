@@ -1,6 +1,6 @@
 package leetcode
 
-func TwoSum(nums []int, target int) []int {
+func twoSum(nums []int, target int) []int {
 	var z []int
 	num_dict := make(map[int]int)
 	for idx, num := range nums {
