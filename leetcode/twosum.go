@@ -8,7 +8,7 @@ func twoSum(nums []int, target int) []int {
 	}
 	for idx, num := range nums {
 		key := target - num
-		if val, ok := num_dict[key]; ok  && val != idx {
+		if val, ok := num_dict[key]; ok && val != idx {
 			z = append(z, idx, val)
 			return z
 		}
